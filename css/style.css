@@ -1,0 +1,333 @@
+/* varriable declaration here */
+:root {
+  --white: #ffffff;
+  --green: #077f39;
+  --black: #000000;
+  --gray: #e0e0e0;
+  --red: #ff4c65;
+}
+/* varriable declaration here */
+
+/* fonts family adding here */
+@font-face {
+  font-family: roboto;
+  src: url(../webfonts/roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../webfonts/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../webfonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../webfonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: roboto;
+  src: url(../webfonts/roboto/Roboto-Thin.ttf);
+}
+/* fonts family adding here */
+
+/* topbar start */
+.topbar_title {
+  /* margin-top: 33px; */
+  line-height: 13px;
+}
+.logo {
+  /* width: 135px; */
+  float: left;
+  padding: 10px 0px;
+  margin-right: 10px;
+}
+.topbar_title h2 {
+  font-size: 30px;
+  margin-top: -6px;
+  font-weight: 300;
+  font-family: roboto-serif;
+}
+.topbar_title h3 {
+  font-size: 29px;
+  margin-bottom: 0px;
+  font-weight: 300;
+}
+.topbar_address {
+  /* margin-bottom: 10px; */
+  text-align: end;
+}
+
+/* topbar address start */
+.topbar_address span {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.topbar_address i {
+  font-size: 16px;
+  margin-left: 8px;
+}
+/* topbar address start */
+/* topbar end */
+
+/* header navbar start */
+.nav_bar {
+  background-color: var(--green);
+  margin-left: 20px;
+}
+.nav_bar li {
+  padding: 5px 0px;
+}
+.nav_bar a {
+  font-family: roboto;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--white);
+  text-transform: capitalize;
+  border-right: 3px solid #ffffff40;
+  padding: 3px 51px !important;
+}
+/* header navbar end */
+/* marque start here */
+.notice {
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+/* marque end here */
+
+/* <!-- Head_teacher description start --> */
+
+.qualification_teacher h4 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  text-transform: capitalize;
+}
+.qualification_teacher h5 {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: capitalize;
+  font-family: roboto;
+  font-weight: 600;
+}
+.qualification_teacher p {
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: capitalize;
+  text-align: justify;
+  font-family: playfair;
+}
+/* <!-- Head_teacher description end --> */
+
+/* notice board and our activity section start */
+.notice_board {
+  background: var(--green);
+  font-size: 36px;
+  font-weight: 500;
+  font-family: playfair;
+  color: var(--white);
+}
+.month_dt_col {
+  padding: 4px 0px;
+  margin-left: 12px;
+}
+
+.month {
+  background: var(--green);
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-family: roboto;
+  padding: 5px;
+  color: var(--white);
+}
+.date {
+  background: var(--gray);
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 5px;
+  color: var(--black);
+}
+
+.notice_title span {
+  font-family: roboto;
+  font-size: 15px;
+}
+
+.activity_photo {
+  bottom: 5px;
+  right: 0%;
+}
+/* notice board and our activity section start */
+
+/* slider all css start */
+.t_name h4 {
+  line-height: 23px;
+  color: var(--white);
+  font-family: roboto;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.t_designation {
+  color: var(--red);
+  font-size: 16px;
+  /* font-family: roboto; */
+  font-weight: bold;
+}
+
+.teacher_details {
+  background: #1e1c1cb0;
+  color: var(--white);
+  text-transform: capitalize;
+  font-family: roboto;
+  /* padding: 0px 0px; */
+  border-radius: 15px;
+  margin: 19px 15px;
+}
+.cheak_mark {
+  color: #05e59a;
+  font-size: 28px;
+  padding: 0px !important;
+}
+.teacher_bottom_content {
+  bottom: 0%;
+  left: 7%;
+}
+/* slider all css end here */
+.notice_board span {
+  font-size: 28px;
+}
+.school_location span {
+  font-size: 28px;
+}
+.serial_margin_padding {
+  padding: 4px 0px;
+  margin-left: 12px;
+}
+.achievements_title {
+  font-family: roboto;
+  font-size: 15px;
+}
+.our_achievements {
+  background: var(--green);
+  font-size: 36px;
+  font-weight: 500;
+  font-family: playfair;
+  color: var(--white);
+}
+.school_location {
+  background: var(--green);
+  font-size: 36px;
+  font-weight: 500;
+  font-family: playfair;
+  color: var(--white);
+}
+.serial_no {
+  background: var(--gray);
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 9px;
+  color: var(--green);
+  font-weight: bold;
+  width: 41px;
+  height: 41px;
+  border-radius: 57px;
+}
+
+.read_button button {
+  border: 1px solid var(--green);
+  padding: 5px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: roboto;
+}
+
+.map iframe {
+  height: 272px;
+}
+/* <!-- admission section start --> */
+.title::before {
+  content: "";
+  border-left: 19px solid #ff000000;
+  border-bottom: 32px solid var(--green);
+  position: absolute;
+  left: -19px;
+  transform: rotate(1deg);
+  bottom: 18px;
+}
+
+.title::after {
+  content: "";
+  border-right: 19px solid #ff000000;
+  border-bottom: 32px solid var(--green);
+  position: absolute;
+  right: -19px;
+  transform: rotate(-360deg);
+  bottom: 18px;
+}
+.admission {
+  top: 15px;
+}
+
+.title {
+  margin-top: 10px;
+}
+.admission_warper {
+  background: var(--green);
+  border: 1px solid white;
+  color: white;
+  font-family: "roboto";
+  padding: 5px 0px;
+  text-transform: capitalize;
+  border-radius: 5px;
+}
+.admission_warper button {
+  background: var(--green);
+  border: 1px solid white;
+  color: white;
+  font-family: "roboto";
+  padding: 5px 5px;
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-weight: bold;
+}
+/* <!-- admission section end --> */
+
+/* footer start */
+footer {
+  background: var(--green);
+}
+
+.footer_nav a {
+  font-size: 16px;
+  font-family: roboto;
+  text-transform: capitalize;
+  color: var(--white);
+  line-height: 20px;
+}
+.school_name,
+.mobile_no,
+.email_address {
+  color: var(--white);
+  font-family: roboto;
+}
+/* footer end */
+.scrol_icon {
+  text-align: center;
+  background: var(--white);
+}
+.scrol_icon a {
+  color: var(--green);
+  text-decoration: none;
+}
+.scrol_collum {
+}

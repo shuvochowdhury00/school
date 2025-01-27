@@ -1,0 +1,604 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* topbar start */
+
+  .topbar_title {
+    /* margin-top: 7px; */
+    line-height: 9px;
+  }
+
+  .topbar_title h2 {
+    font-size: 10px;
+  }
+  .topbar_title h3 {
+    font-size: 10px;
+  }
+  /* topbar end */
+
+  /* topbar title start */
+  .topbar_address {
+    line-height: 10px;
+    margin-top: -9px;
+  }
+  .topbar_address span {
+    font-size: 7px;
+  }
+  .topbar_address i {
+    font-size: 7px;
+    margin-left: 4px;
+  }
+  /* topbar title end */
+
+  /* header navbar start */
+  .nav_bar a {
+    border-right: 0px;
+  }
+  /* header navbar end */
+
+  /* marque scroll bar start */
+  .notice {
+    font-size: 14px;
+  }
+  /* marque scroll bar end*/
+
+  /* carousel_image start */
+  .carousel_image img {
+    height: fit-content !important;
+    margin-bottom: 10px;
+  }
+  .qualification_teacher {
+    margin-top: 10px;
+  }
+  .qualification_teacher p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  /* carousel_image end */
+
+  /* <!--notice board month & date & content start --> */
+  .notice_board {
+    margin-top: 5px;
+  }
+  .notice_title span {
+    font-size: 13px;
+  }
+  /* <!--notice board month & date & content end --> */
+
+  /* our activity last photo start */
+  .activity_photo {
+    position: inherit !important;
+  }
+  /* our activity last photo start */
+
+  .serial_no {
+    padding: 12px;
+    height: 47px;
+  }
+  .title::before {
+    content: "";
+    border-left: 14px solid #ff000000;
+    border-bottom: 28px solid var(--green);
+    position: absolute;
+    left: -14px;
+    transform: rotate(1deg);
+    bottom: 12px;
+  }
+  .title::after {
+    content: "";
+    border-right: 13px solid #ff000000;
+    border-bottom: 30px solid var(--green);
+    position: absolute;
+    right: -13px;
+    transform: rotate(-360deg);
+    bottom: 12px;
+  }
+
+  /* <!-- admission section start --> */
+
+  .title {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+  .admission_warper button {
+    font-size: 12px;
+  }
+
+  /* <!-- admission section end --> */
+
+  /* footer start */
+  .school_name,
+  .mobile_no,
+  .email_address {
+    font-size: 9px;
+  }
+
+  .footer_nav a {
+    font-size: 9px;
+    line-height: 7px;
+  }
+  .copy_right {
+    text-align: center;
+  }
+
+  .copy_right {
+    color: var(--white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center !important;
+  }
+  .scrol_icon {
+    text-align: center;
+    background: var(--white);
+    border-radius: 14px;
+    padding-top: 3px;
+    height: 30px;
+    width: 30px;
+  }
+  /* footer end */
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .school_location,
+  .our_achievements {
+    font-size: 30px;
+  }
+  /* topbar start */
+
+  .notice_board span {
+    font-size: 28px;
+  }
+  .school_location span {
+    font-size: 28px;
+  }
+  .achievements_title {
+    font-size: 12px;
+  }
+  .topbar_title {
+    margin-top: 13px;
+    line-height: 13px;
+  }
+  .topbar_title h2 {
+    font-size: 13px;
+  }
+  .topbar_title h3 {
+    font-size: 13px;
+  }
+  /* topbar end */
+
+  /* topbar title start */
+  .topbar_address {
+    margin-top: -9px;
+    line-height: 13px;
+  }
+  .topbar_address span {
+    font-size: 13px;
+  }
+  .topbar_address i {
+    font-size: 13px;
+    margin-left: 4px;
+  }
+  /* topbar title end */
+  .nav_bar a {
+    border-right: 0px;
+  }
+  /* header navbar end */
+
+  /* marque scroll bar start */
+  .notice {
+    font-size: 15px;
+  }
+  /* marque scroll bar end*/
+  /* carousel_image start */
+  .carousel_image img {
+    height: 201px !important;
+  }
+
+  /* carousel_image end */
+
+  /* <!-- Head_teacher description start --> */
+
+  .qualification_teacher h4 {
+    font-size: 12px;
+    line-height: 10px;
+    /* margin-bottom: 3px; */
+  }
+
+  .qualification_teacher {
+    /* margin-top: 10px; */
+  }
+  .qualification_teacher p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+  .qualification_teacher h5 {
+    font-size: 9px;
+    line-height: 11px;
+    /* margin-bottom: 0px; */
+  }
+
+  .qualification_teacher p {
+    font-size: 7px;
+    line-height: 9px;
+  }
+  /* <!-- Head_teacher description end --> */
+
+  /* <!--notice board month & date & content start --> */
+  .notice_board span {
+    font-size: 36px;
+  }
+
+  .month {
+    padding: 1px;
+  }
+  .date {
+    padding: 1px;
+  }
+
+  .notice_title span {
+    font-size: 11px;
+  }
+  /* <!--notice board month & date & content end --> */
+  .serial_no {
+    padding: 10px;
+    height: 44px;
+  }
+
+  /* our location start */
+  .map iframe {
+    height: 384px;
+  }
+  /* our location end */
+  /* <!-- admission section start --> */
+
+  .title {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .admission_warper button {
+    font-size: 14px;
+  }
+  /* <!-- admission section end --> */
+  /* footer start */
+  .title::before {
+    content: "";
+    border-left: 19px solid #ff000000;
+    border-bottom: 30px solid var(--green);
+    position: absolute;
+    left: -19px;
+    transform: rotate(1deg);
+    bottom: 17px;
+  }
+  .title::after {
+    content: "";
+    border-right: 19px solid #ff000000;
+    border-bottom: 30px solid var(--green);
+    position: absolute;
+    right: -19px;
+    transform: rotate(-360deg);
+    bottom: 18px;
+  }
+
+  .copy_right {
+    color: var(--white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .school_name,
+  .mobile_no,
+  .email_address {
+    font-size: 13px;
+  }
+  .footer_nav a {
+    font-size: 13px;
+    line-height: 6px;
+  }
+
+  .scrol_icon {
+    text-align: center;
+    background: var(--white);
+    border-radius: 19px;
+    padding-top: 8px;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* topbar start */
+
+  .serial_no {
+    padding: 17px;
+    height: 56px;
+  }
+  .topbar_title h2 {
+    font-size: 17px;
+  }
+  .topbar_title h3 {
+    font-size: 18px;
+  }
+  /* topbar end */
+
+  /* topbar title start */
+
+  .topbar_address {
+    margin-top: -9px;
+    line-height: 18px;
+  }
+  .topbar_address span {
+    font-size: 16px;
+  }
+  .topbar_address i {
+    font-size: 15px;
+    margin-left: 4px;
+  }
+
+  /* topbar title end */
+
+  .nav_bar a {
+    border-right: 0px;
+  }
+  /* header navbar end */
+
+  /* carousel_image start */
+  .carousel_image img {
+    height: 350px !important;
+  }
+
+  /* carousel_image end */
+
+  /* <!-- Head_teacher description start --> */
+
+  .qualification_teacher h4 {
+    font-size: 17px;
+  }
+
+  .qualification_teacher {
+    /* margin-top: 10px; */
+  }
+  .qualification_teacher p {
+    font-size: 12px;
+    line-height: 13px;
+  }
+  .qualification_teacher h5 {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  /* <!-- Head_teacher description end --> */
+
+  /* <!--notice board month & date & content start --> */
+  .month {
+    padding: 2px;
+  }
+  .date {
+    padding: 2px;
+  }
+  .notice_title span {
+    font-size: 14px;
+  }
+  /* <!--notice board month & date & content end --> */
+  /* our location start */
+  .map iframe {
+    height: 382px;
+  }
+  /* our location end */
+  /* <!-- admission section start --> */
+
+  .title {
+    margin-top: 10px;
+    font-size: 19px;
+    text-align: center;
+  }
+  .admission_warper button {
+    font-size: 14px;
+  }
+  /* <!-- admission section end --> */
+  /* footer start */
+  .title::before {
+    content: "";
+    border-left: 19px solid #ff000000;
+    border-bottom: 30px solid var(--green);
+    position: absolute;
+    left: -19px;
+    transform: rotate(1deg);
+    bottom: 17px;
+  }
+  .title::after {
+    content: "";
+    border-right: 19px solid #ff000000;
+    border-bottom: 30px solid var(--green);
+    position: absolute;
+    right: -19px;
+    transform: rotate(-360deg);
+    bottom: 18px;
+  }
+  .school_name,
+  .mobile_no,
+  .email_address {
+    font-size: 13px;
+  }
+  .footer_nav a {
+    font-size: 14px;
+    line-height: 6px;
+  }
+
+  .scrol_icon {
+    text-align: center;
+    background: var(--white);
+    border-radius: 24px;
+    padding-top: 14px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .copy_right {
+    color: var(--white);
+    font-size: 14px;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* topbar start */
+
+  /* .topbar_title {
+    margin-top: 10px;
+  } */
+  .topbar_title h2 {
+    font-size: 23px;
+  }
+  .topbar_title h3 {
+    font-size: 25px;
+  }
+  /* topbar end */
+  .nav_bar li a {
+    padding: 3px 37px !important;
+  }
+
+  /* <!-- Head_teacher description start --> */
+  .qualification_teacher p {
+    font-size: 14px;
+    line-height: 13px;
+  }
+  /* <!-- Head_teacher description end --> */
+
+  /* <!--notice board month & date & content start --> */
+  .month {
+    padding: 3px;
+  }
+  .date {
+    padding: 3px;
+  }
+
+  .notice_title span {
+    font-size: 15px;
+  }
+  /* <!--notice board month & date & content end --> */
+  /* our location start */
+  .map iframe {
+    height: 272px;
+  }
+  /* our location end */
+  /* <!-- admission section start --> */
+
+  .title {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .admission_warper button {
+    font-size: 14px;
+  }
+  /* <!-- admission section end --> */
+  /* footer start */
+  .school_name,
+  .mobile_no,
+  .email_address {
+    font-size: 15px;
+  }
+  .footer_nav a {
+    font-size: 15px;
+    line-height: 6px;
+  }
+
+  .scrol_icon {
+    text-align: center;
+    background: var(--white);
+    border-radius: 32px;
+    padding-top: 16px;
+    height: 55px;
+    width: 55px;
+  }
+  .copy_right {
+    color: var(--white);
+    font-size: 15px;
+    display: flex;
+    justify-content: center !important;
+  }
+
+  /* footer end */
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* topbar address start */
+
+  .topbar_address {
+    line-height: 29px;
+    margin-top: -9px;
+    /* margin-right: 30px; */
+  }
+  .topbar_address span {
+    font-size: 18px;
+  }
+  .topbar_address i {
+    font-size: 18px;
+  }
+  /* topbar address start */
+  .qualification_teacher p {
+    font-size: 15px;
+    line-height: 15px;
+  }
+  /* our location start */
+  .map iframe {
+    height: 272px !important;
+  }
+  /* our location end */
+  /* <!-- admission section start --> */
+
+  .title {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  .admission_warper button {
+    font-size: 14px;
+  }
+  /* <!-- admission section end --> */
+  /* footer start */
+  .school_name,
+  .mobile_no,
+  .email_address {
+    font-size: 17px;
+  }
+  .footer_nav a {
+    font-size: 17px;
+    line-height: 6px;
+  }
+
+  .scrol_icon {
+    text-align: center;
+    background: var(--white);
+    border-radius: 32px;
+    padding-top: 16px;
+    height: 55px;
+    width: 55px;
+  }
+  .copy_right {
+    color: var(--white);
+    font-size: 17px;
+  }
+
+  /* footer end */
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+  /* navbar start */
+  .nav_bar a {
+    font-size: 18px;
+    padding: 1px 52px !important;
+  }
+  /* navbar end */
+  /* our location start */
+  .map iframe {
+    height: 272px !important;
+  }
+  /* our location end */
+}
